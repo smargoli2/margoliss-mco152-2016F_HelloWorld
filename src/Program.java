@@ -2,7 +2,8 @@
 public class Program {
 
 	public static void main(String[] args) {
-		System.out.println("Hello world!");
+		MessageDisplayer md = new MessageDisplayer("Hello!");
+		md.display();
 	}
 
 }
